@@ -1,0 +1,17 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    awesome_print (1.8.0)
+    json (2.0.4)
+    minitest (5.10.3)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  awesome_print
+  json
+  minitest
+
+BUNDLED WITH
+   1.15.4
