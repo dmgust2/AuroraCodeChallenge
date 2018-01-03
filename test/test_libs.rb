@@ -116,6 +116,8 @@ class TestSolar < MiniTest::Unit::TestCase
   #
 
   def test_get_total_energy
+    print_test_separator('test_get_total_energy')
+
     total_energy = Utilities::get_total_energy
 
     puts "The total energy produced​ ​by​ ​the​ ​entire​ (mock) ​solar​ ​installation: #{total_energy} kWh"
@@ -125,6 +127,8 @@ class TestSolar < MiniTest::Unit::TestCase
   end
 
   def test_get_total_inverter_energy
+    print_test_separator('test_get_total_inverter_energy')
+
     total_energy = Utilities::get_total_inverter_energy
 
     puts "The ​total​ ​amount​ ​of​ ​energy​ ​produced​ ​by​ all​ ​inverters in the (mock) solar​ ​installation: #{total_energy} kWh"
@@ -134,6 +138,8 @@ class TestSolar < MiniTest::Unit::TestCase
   end
 
   def test_average_battery_charge
+    print_test_separator('test_average_battery_charge')
+
     average_charge = Utilities::average_battery_charge
 
     puts "The ​average charge across all batteries in the (mock) solar​ ​installation: #{average_charge} %"
